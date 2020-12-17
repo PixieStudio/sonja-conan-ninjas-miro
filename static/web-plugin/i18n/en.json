@@ -1,0 +1,24 @@
+{
+    "title": {
+        "barbare": "Barbarian",
+        "ninjas": "Ninjas ",
+        "board": "Setup"
+    },
+    "home": {
+        "welcome": "Welcome!",
+        "board": "Playmat",
+        "p1": "To get started, you need to install the Playmat.",
+        "p2": "Simply drag and drop the button below onto the board.",
+        "p3": "Wait a few moments while the image loads.",
+        "communaute": "Join the Community",
+        "commun_text": "To play and share about RPG and Miro.",
+        "discord": "Discord Server: MIRROR",
+        "patreon": "You can support me through Patreon"
+    },
+    "barbare": {
+        "dice": "Click on the buttons to roll the dice!"
+    },
+    "ninjas": {
+        "cards": "Click or drag and drop the card on the board!"
+    }
+}

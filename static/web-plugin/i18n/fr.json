@@ -1,0 +1,24 @@
+{
+    "title": {
+        "barbare": "Barbare",
+        "ninjas": "Ninjas ",
+        "board": "Mise en place"
+    },
+    "home": {
+        "welcome": "Bienvenue !",
+        "board": "Tapis de jeu",
+        "p1": "Pour démarrer, vous devez installer le tapis de jeu.",
+        "p2": "Effectuez simplement un glisser-déposer du bouton ci-dessous sur le board.",
+        "p3": "Patientez quelques instans le temps que l'image charge.",
+        "communaute": "Rejoignez la Communauté",
+        "commun_text": "Pour jouer et partager sur le JdR et Miro.",
+        "discord": "Serveur Discord : MIRROR",
+        "patreon": "Vous pouvez me soutenir via Patreon"
+    },
+    "barbare": {
+        "dice": "Cliquez sur les boutons pour lancer les dés !"
+    },
+    "ninjas": {
+        "cards": "Cliquez ou glissez-déposer la carte sur le board !"
+    }
+}

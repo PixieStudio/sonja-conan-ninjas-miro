@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="./stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+</head>
+
+<body>
+    <div id="lang" style="text-align:center">
+        <span type="button" class="pointer" data-value="fr">🇫🇷</span> <span type="button" class="pointer"
+            data-value="en">🇬🇧</span>
+    </div>
+    <div class="container p-0 m-0">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" id="homeTab" href="#" onclick="UI.displayPage('home')">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" id="barbareTab" href="#" onclick="UI.displayPage('barbare')">
+                    <span data-i18n="title.barbare"></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" id="ninjaTab" href="#" onclick="UI.displayPage('ninja')">
+                    <span data-i18n="title.ninjas"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="scrollable-container-quick" class="scrollable-container-quick">
+        <!-- Home Page -->
+        <div id="home-container" style="display:none">
+
+            <h4 class="text-info" data-i18n="home.welcome"></h4>
+            <p data-i18n="home.p1"></p>
+            <p data-i18n="home.p2"></p>
+            <p data-i18n="home.p3"></p>
+
+            <h4 class="text-info" data-i18n="home.board"></h4>
+            <div id="container-board"></div>
+
+            <h4 class="text-info mt-2" data-i18n="home.communaute"></h4>
+            <p data-i18n="home.commun_text"></p>
+            <a href="https://discord.gg/jBghwAz" target="_blank" class="text-decoration-none"><button
+                    class="my-3 btn btn-warning btn-sm btn-block"><span data-i18n="home.discord"></span></button></a>
+            <p data-i18n="home.patreon"></p>
+            <a href="https://www.patreon.com/laflys" target="_blank" class="text-decoration-none"><button
+                    class="my-3 btn btn-warning btn-sm btn-block">Patreon
+                    Laflys : MIRROR</button></a>
+        </div>
+
+        <div id="barbare-container" style="display:none">
+            <h4 class="text-info" data-i18n="title.barbare"></h4>
+            <small class="text-warning" data-i18n="barbare.dice"></small>
+            <div id="container-barbare"></div>
+        </div>
+
+        <div id="ninja-container" style="display:none">
+            <h4 class="text-info" data-i18n="title.ninjas"></h4>
+            <small class="text-warning" data-i18n="ninjas.cards"></small>
+            <div id="container-ninjas"></div>
+        </div>
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/9504dcbbc9.js" crossorigin="anonymous"></script>
+    <script src="https://miro.com/app/static/sdk.1.1.js"></script>
+    <script type="text/javascript" src="./js/translator.js"></script>
+    <script type="text/javascript" src="./js/utils.js"></script>
+    <script type="text/javascript" src="./js/sonjaconan.js"></script>
+    <script type="text/javascript" src="./js/events.js"></script>
+</body>
+
+</html>
