@@ -4,7 +4,7 @@
 
 Clone this repository to your local workspace.
 
-`git clone `
+`git clone git@github.com:PixieStudio/sonja-conan-ninjas-miro.git`
 
 Install packages.
 
@@ -17,7 +17,7 @@ Run `cp .env.example .env` file then populate `.env` like `.env.example`.
 
 Start your application with node.
 
-`node src/dicemaster.js`
+`node src/sonjaconan.js`
 
 Start your **ngrok tunnel** :
 
